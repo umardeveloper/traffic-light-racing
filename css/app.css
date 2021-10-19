@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../img/speedometr3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 300%;
+}
+li,
+a {
+  text-decoration: none;
+  list-style-type: unset;
+}
+.container {
+  padding: 20px;
+  text-align: center;
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+}
+.traffic-light {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 200px;
+  height: 100px;
+  margin: 0 auto 0 auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(1, 1, 1, 0.5);
+}
+.list {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50px;
+}
+.bg-img--go {
+  transform: translateY(400%);
+  transition: transform 1.5s ease;
+}
